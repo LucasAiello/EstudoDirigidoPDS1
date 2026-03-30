@@ -1,9 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# =============================================================================
-# CONFIGURAÇÕES GERAIS (Estética dos Gráficos)
-# =============================================================================
+
 plt.rcParams.update({'font.size': 11, 'figure.figsize': (12, 8), 'axes.grid': True})
 
 frequency = 20  
@@ -13,12 +11,10 @@ x_cont = np.cos(2 * np.pi * 10 * t_cont)
 n_amostras = np.arange(0, 11) 
 x_disc = np.cos(2 * np.pi * 10 * (n_amostras/frequency))
 
-# 1.2 Sequências Elementares
 n_range = np.arange(-10, 21)
 impulso = (n_range == 0).astype(float)
 degrau = (n_range >= 0).astype(float)
 
-# Plotagem da Simulação 1
 fig, axs = plt.subplots(1, 4, figsize=(15, 10))
 
 axs[0].plot(t_cont, x_cont, label='Contínuo $x(t)$')
