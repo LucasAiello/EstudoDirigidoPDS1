@@ -9,6 +9,8 @@ O presente repositório visa compartilhar um estudo sobre os conceitos básicos 
 * Interpretação dos resultados obtidos nas simulações, relacionando
 os conceitos estudados com aplicações em engenharia.
 
+## Estudo Dirigido 1:
+
 Para resolver o problema norteador, o fluxo de trabalho foi dividido em quatro etapas fundamentais:
 
 ### Modelagem Matemática do Sinal do Sensor:
@@ -25,3 +27,5 @@ Verificação manual e computacional das propriedades do sistema de filtragem (L
 ### Quantificação de Intensidade:
 
 Cálculo de métricas de Energia e Potência Média para determinar a viabilidade do sistema em termos de hardware e consumo energético.
+
+## Estudo Dirigido 2:
